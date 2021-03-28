@@ -1,0 +1,57 @@
+---
+id: info
+title: Information
+sidebar_label: Information
+---
+
+import VersionButton from "../../src/components/versionButton";
+
+export const Highlight = ({children, color}) => (<span style={{
+    backgroundColor: color,
+    borderRadius: '3px',
+    color: "white",
+    padding: '0.2rem',
+}}>{children}</span>);
+
+Here you'll find all the information about SuperiorPrison
+
+<Highlight color="#f68c24">Latest Version</Highlight>
+<VersionButton id="SuperiorPrison"/>
+
+## Features
+
+- Mines
+- Timed Resetting
+- Percentage based resetting
+- Non Permission based ranks/prestiges
+- Prisoner xp/drops/money boosters
+- Mine shops
+- Backpacks
+- Bombs
+- Auto Sell
+- Auto Burn
+- Fortune Blocks
+- Auto Pickup
+- Fully customized guis
+- Fully customized messages
+
+## Storage
+Storage is provided by [DataModule](https://github.com/OOP-778/data-module).<br/>
+SuperiorPrison supports 5 storage types
+and you can switch between them using our exporting/importing system
+- Json
+- Sqlite
+- MongoDB
+- MySQL
+- PostgreSQL
+- H2
+> Don't see your favourite database? Suggest your database in the discord.
+> Or if you're a developer, you can add your database to DataModule modules and ask for pull request.
+---
+
+:::caution
+
+SuperiorPrison is going to be replaced by ExclusivePrison, whenever released.
+All purchases will be kept
+
+:::

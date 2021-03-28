@@ -1,0 +1,40 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+
+
+.container {
+  position: relative;
+  overflow: hidden;
+}
+
+.product__description {
+  height: 100px;
+}
+
+.special__button {
+  padding: 10px;
+}
+
+.special__button__text {
+  border: solid 2px red;
+  padding: 5px 10px 5px 10px;
+  border-radius: 20px;
+}
+
+.product {
+  color: white;
+}
+
+.products {
+  padding: 3rem;
+  width: 100%;
+}
+
+.productImage {
+  height: 100px;
+  width: 100px;
+}
+
+.buttons {
+  padding: 2px;
+}
