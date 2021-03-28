@@ -9,6 +9,8 @@
 .idea/
 .env
 yarn.lock/
+package-lock.json/
+.docusaurus/
 
 node_modules/
 dist/
